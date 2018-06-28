@@ -12,7 +12,7 @@ HTML,
 CSS,
 JavaScript.
 
-Zobacz jak działa : https://justyna1209.github.io/Pierwsza-strona/
+Zobacz jak działa : https://justyna1209.github.io/First-website_SIT-ON-CHAIR/
 
 
 ![SIT ON CHAIR](./images/strona.png) 
