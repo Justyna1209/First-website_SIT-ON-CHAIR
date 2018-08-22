@@ -9,7 +9,8 @@ który oblicza cenę zamówienia.
 
 Strona wykonana zaostała przy użyciu:
 * HTML,
-* CSS,
+* SASS,
+* Gulp,
 * JavaScript.
 
 **Zobacz jak działa :** https://justyna1209.github.io/First-website_SIT-ON-CHAIR/
