@@ -1,0 +1,87 @@
+//HEADER
+@import "../variables.scss";
+
+header {
+  width: 100%;
+  height: 40px;
+  background-color: $nav-color;
+  color: white;
+  .title {
+    float: left;
+    text-transform: uppercase;
+    padding: 12px 0;
+    font-size: $nav-textSize;
+    letter-spacing: 1px;
+    span {
+      color: $main-color;
+    }
+  }
+}
+
+.mainNav{
+  float: right;
+  margin-right: -8px;
+  padding-top:3px;
+  font-size: $nav-textSize;
+  letter-spacing: 1px;
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+  }
+  a{
+    text-decoration: none;
+    line-height: 30px;
+  }
+}
+
+.firstList {
+  & > li{
+    float: left;
+    position:relative;
+    text-transform: uppercase;
+    padding: 4px 15px;
+    font-size: $nav-textSize;
+    cursor: pointer;
+    letter-spacing: 1px;
+    margin-left: 10px;
+      ul{
+        display: none;
+        position: absolute;
+        text-transform: none;
+        padding: 5px 18px;
+        width: 120px;
+        margin-top: 20px;
+        margin-left: -20px;
+        font-size: $nav-textSize;
+      }
+    &:hover ul{
+          display: block;
+          background-color: $nav-color;
+          cursor: pointer;
+        }
+      }
+  }
+
+
+ul{
+  &:hover .beforeTriangle{
+    display: block;
+    background-color: transparent;
+    height: 15px;
+    width: 120px;
+    z-index: initial;
+    margin-top: -20px;
+    margin-left: -20px;
+  }
+
+  &:hover .triangle{
+    display: block;
+    border-bottom:20px solid $nav-color;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    margin-left: 20px;
+    position: absolute;
+    padding-top: 3px;
+  }
+}
