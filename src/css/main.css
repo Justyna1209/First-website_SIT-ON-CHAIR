@@ -186,38 +186,19 @@ ul:hover .triangle {
     width: 140px;
     font-size: 16px; }
 
-* {
-  box-sizing: border-box;
-  font-family: 'Raleway', sans-serif; }
-
-body {
-  margin: 0 auto;
-  padding: 0; }
-
-.container {
-  width: 1056px;
-  margin: 0 auto; }
-
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both; }
-
-/*SIT ON CHAIR THIRD*/
-.sitOnChairThird h3 {
-  text-transform: uppercase;
-  border-bottom: 7px solid #25c9b0;
-  line-height: 35px;
-  width: 315px;
-  margin-top: 45px;
-  color: #575757;
-  font-size: 22px; }
-
 .sitOnChairThird {
   background-color: #e6e6e6;
   width: 100%;
   height: 725px;
   padding-top: 5px; }
+  .sitOnChairThird h3 {
+    text-transform: uppercase;
+    border-bottom: 7px solid #25c9b0;
+    line-height: 35px;
+    width: 315px;
+    margin-top: 45px;
+    color: #575757;
+    font-size: 22px; }
 
 .sitOnChairThird .basicPlan {
   width: 330px;
@@ -252,27 +233,14 @@ body {
   text-align: center;
   padding: 9px; }
 
-.sitOnChairThird .guaranteeBackground {
-  position: absolute;
-  width: 326px;
-  height: 45px;
-  background-color: lightgray;
-  margin-top: 255px;
-  color: gray;
-  font-size: 24px;
-  text-align: center;
-  padding: 9px; }
-
-.sitOnChairThird .adviceBackground {
-  position: absolute;
-  width: 326px;
-  height: 45px;
-  background-color: #e6e6e6;
-  margin-top: 300px;
-  color: gray;
-  font-size: 24px;
-  text-align: center;
-  padding: 9px; }
+.sitOnChairThird .standardPlan {
+  width: 330px;
+  height: 500px;
+  border: 2px solid #25c9b0;
+  float: left;
+  position: relative;
+  margin-top: 55px;
+  background-color: #25c9b0; }
 
 .sitOnChairThird .deliverBackground1 {
   position: absolute;
@@ -296,12 +264,44 @@ body {
   text-align: center;
   padding: 9px; }
 
+.sitOnChairThird .guaranteeBackground {
+  position: absolute;
+  width: 326px;
+  height: 45px;
+  background-color: lightgray;
+  margin-top: 255px;
+  color: gray;
+  font-size: 24px;
+  text-align: center;
+  padding: 9px; }
+
+.sitOnChairThird .advancePlan {
+  width: 330px;
+  height: 500px;
+  border: 2px solid lightgray;
+  float: right;
+  position: relative;
+  margin-top: 55px;
+  margin-right: 10px;
+  background-color: #f2f2f2; }
+
 .sitOnChairThird .guaranteeBackground1 {
   position: absolute;
   width: 326px;
   height: 45px;
   background-color: white;
   margin-top: 255px;
+  color: gray;
+  font-size: 24px;
+  text-align: center;
+  padding: 9px; }
+
+.sitOnChairThird .adviceBackground {
+  position: absolute;
+  width: 326px;
+  height: 45px;
+  background-color: #e6e6e6;
+  margin-top: 300px;
   color: gray;
   font-size: 24px;
   text-align: center;
@@ -350,15 +350,6 @@ body {
   margin-top: 5px;
   color: lightgray; }
 
-.sitOnChairThird .standardPlan {
-  width: 330px;
-  height: 500px;
-  border: 2px solid #25c9b0;
-  float: left;
-  position: relative;
-  margin-top: 55px;
-  background-color: #25c9b0; }
-
 .sitOnChairThird .circle1 {
   border-radius: 50%;
   border: 2px solid #25c9b0;
@@ -403,16 +394,6 @@ body {
 
 sup {
   font-size: 16px; }
-
-.sitOnChairThird .advancePlan {
-  width: 330px;
-  height: 500px;
-  border: 2px solid lightgray;
-  float: right;
-  position: relative;
-  margin-top: 55px;
-  margin-right: 10px;
-  background-color: #f2f2f2; }
 
 .sitOnChairThird h4 {
   text-transform: uppercase;
@@ -461,6 +442,24 @@ sup {
   text-decoration: none;
   font-weight: normal; }
 
+* {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif; }
+
+body {
+  margin: 0 auto;
+  padding: 0; }
+
+.container {
+  width: 1056px;
+  margin: 0 auto; }
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both; }
+
+/*SIT ON CHAIR THIRD*/
 /*SIT ON CHAIR FOURTH*/
 .sitOnChairFourth h3 {
   text-transform: uppercase;
