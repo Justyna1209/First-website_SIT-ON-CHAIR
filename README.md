@@ -17,4 +17,4 @@ Strona wykonana zaostała przy użyciu:
 
 **Zobacz jak działa :** https://justyna1209.github.io/First-website_SIT-ON-CHAIR/
 
-![SIT ON CHAIR](./images/strona.png) 
+![SIT ON CHAIR](src/images/strona.png) 
