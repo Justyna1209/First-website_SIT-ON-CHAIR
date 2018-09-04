@@ -2,3 +2,23 @@
 $main-color:#25c9b0;
 $nav-color:black;
 $nav-textSize:13px;
+
+%deliverandservis{
+  position: absolute;
+  width: 326px;
+  height: 45px;
+  color: gray;
+  font-size: 24px;
+  text-align: center;
+  padding: 9px;
+}
+
+%deliverandservis1{
+  position:absolute;
+  width:326px;
+  height: 45px;
+  color:gray;
+  font-size: 24px;
+  text-align: center;
+  padding: 9px;
+}
