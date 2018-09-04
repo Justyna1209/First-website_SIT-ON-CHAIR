@@ -167,31 +167,19 @@
 
 .sitOnChairThird {
   .circle {
-    border-radius: 50%;
+    @extend %circleAndCircle1;
     border: 2px solid lightgray;
-    width: 60px;
-    height: 60px;
-    position: absolute;
     background-color: white;
-    margin-top: -45px;
-    margin-left: 135px;
   }
+
   .smallCircle {
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    @extend %smallCircleAndCircle1;
     background-color: lightgray;
-    margin-top: 13px;
-    margin-left: 13px;
   }
+
   .bigCircle {
-    border-radius: 50%;
+    @extend %bigCircleAndCircle1;
     border: 2px solid lightgray;
-    width: 130px;
-    height: 130px;
-    position: absolute;
-    background-color: white;
-    margin-left: 97.5px;
     text-align: center;
   }
 }
@@ -213,110 +201,98 @@
       }
     }
   }
-  
+
     .sitOnChairThird .circle1{
-      border-radius: 50%;
+      @extend %circleAndCircle1;
       border: 2px solid $main-color;
-      width: 60px;
-      height: 60px;
-      position:absolute;
       background-color:$main-color;
-      margin-top: -45px;
-      margin-left: 135px;
     }
 
     .sitOnChairThird .smallCircle1{
-      border-radius: 50%;
-      width: 30px;
-      height:30px;
+      @extend %smallCircleAndCircle1;
       background-color:white;
-      margin-top: 13px;
-      margin-left: 13px;
     }
 
     .sitOnChairThird .bigCircle1 {
-      border-radius: 50%;
+      @extend %bigCircleAndCircle1;
       border: 2px solid white;
-      width: 130px;
-      height: 130px;
-      position:absolute;
-      background-color: white;
-      margin-left: 97.5px;
     }
 
-    .sitOnChairThird .price1{
-      position: relative;
-      font-size: 45px;
-      font-weight: bold;
-      text-align: center;
-      margin-top: 25px;
-      color:$main-color;
+    .sitOnChairThird {
+      .price1 {
+        position: relative;
+        font-size: 45px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 25px;
+        color: $main-color;
+        & > .money {
+          font-size: 16px;
+          font-weight: bold;
+          width: 125px;
+          margin-top: 5px;
+          color: $main-color;
+        }
+      }
     }
 
-    .sitOnChairThird .price1> .money{
-      font-size: 16px;
-      font-weight: bold;
-      width:125px;
-      margin-top:5px;
-      color:$main-color;
-    }
+      sup{
+        font-size: 16px;
+      }
 
-    sup{
-      font-size: 16px;
-    }
+      .sitOnChairThird h4{
+        text-transform: uppercase;
+        font-size: 24px;
+        font-weight: normal;
+        text-align: center;
+        color:$main-color;
+        margin-top: 25px;
+        margin-bottom: 20px;
+      }
 
-
-
-    .sitOnChairThird h4{
-      text-transform: uppercase;
-      font-size: 24px;
-      font-weight: normal;
-      text-align: center;
-      color:$main-color;
-      margin-top: 25px;
-      margin-bottom: 20px;
-    }
-
-    .sitOnChairThird .standardPlan> h4{
-      text-transform: uppercase;
-      font-size: 24px;
-      text-align: center;
-      color:white;
-    }
+      .sitOnChairThird .standardPlan> h4{
+        text-transform: uppercase;
+        font-size: 24px;
+        text-align: center;
+        color:white;
+      }
 
 
-    .sitOnChairThird button{
-      width:120px;
-      height: 30px;
-      background-color: $main-color;
-      border-radius: 8px;
-      border: none;
-      margin-top: 370px;
-      margin-left: 105px;
-    }
+      .sitOnChairThird {
+        button {
+          width: 120px;
+          height: 30px;
+          background-color: $main-color;
+          border-radius: 8px;
+          border: none;
+          margin-top: 370px;
+          margin-left: 105px;
+          & > a {
+            color: white;
+            font-size: 18px;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-weight: normal;
+          }
+        }
+      }
 
-    .sitOnChairThird button >a{
-      color:white;
-      font-size: 18px;
-      text-transform: uppercase;
-      text-decoration: none;
-      font-weight: normal;
-    }
-
-    .sitOnChairThird .added{
-      width:120px;
-      height: 30px;
-      background-color: white;
-      border-radius: 8px;
-      border: none;
-      margin-top: 370px;
-      margin-left: 105px;
-    }
-
-    .sitOnChairThird .added >a{
-      color:$main-color;
-      font-size: 18px;
-      text-transform: uppercase;
-      text-decoration: none;
-      font-weight: normal;
-    }
+        .sitOnChairThird {
+          .added {
+            width: 120px;
+            height: 30px;
+            background-color: white;
+            border-radius: 8px;
+            border: none;
+            margin-top: 370px;
+            margin-left: 105px;
+            & > a {
+              color: $main-color;
+              font-size: 18px;
+              text-transform: uppercase;
+              text-decoration: none;
+              font-weight: normal;
+            }
+          }
+        }
+      

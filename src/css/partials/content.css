@@ -16,6 +16,29 @@
   text-align: center;
   padding: 9px; }
 
+.sitOnChairThird .circle, .sitOnChairThird .circle1 {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  margin-top: -45px;
+  margin-left: 135px; }
+
+.sitOnChairThird .smallCircle, .sitOnChairThird .smallCircle1 {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-top: 13px;
+  margin-left: 13px; }
+
+.sitOnChairThird .bigCircle, .sitOnChairThird .bigCircle1 {
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  background-color: white;
+  margin-left: 97.5px; }
+
 .sitOnChairSecond {
   padding-top: 30px;
   height: 315px; }
@@ -151,31 +174,14 @@
   padding: 9px; }
 
 .sitOnChairThird .circle {
-  border-radius: 50%;
   border: 2px solid lightgray;
-  width: 60px;
-  height: 60px;
-  position: absolute;
-  background-color: white;
-  margin-top: -45px;
-  margin-left: 135px; }
+  background-color: white; }
 
 .sitOnChairThird .smallCircle {
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  background-color: lightgray;
-  margin-top: 13px;
-  margin-left: 13px; }
+  background-color: lightgray; }
 
 .sitOnChairThird .bigCircle {
-  border-radius: 50%;
   border: 2px solid lightgray;
-  width: 130px;
-  height: 130px;
-  position: absolute;
-  background-color: white;
-  margin-left: 97.5px;
   text-align: center; }
 
 .sitOnChairThird .price {
@@ -193,31 +199,14 @@
     color: lightgray; }
 
 .sitOnChairThird .circle1 {
-  border-radius: 50%;
   border: 2px solid #25c9b0;
-  width: 60px;
-  height: 60px;
-  position: absolute;
-  background-color: #25c9b0;
-  margin-top: -45px;
-  margin-left: 135px; }
+  background-color: #25c9b0; }
 
 .sitOnChairThird .smallCircle1 {
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  background-color: white;
-  margin-top: 13px;
-  margin-left: 13px; }
+  background-color: white; }
 
 .sitOnChairThird .bigCircle1 {
-  border-radius: 50%;
-  border: 2px solid white;
-  width: 130px;
-  height: 130px;
-  position: absolute;
-  background-color: white;
-  margin-left: 97.5px; }
+  border: 2px solid white; }
 
 .sitOnChairThird .price1 {
   position: relative;
@@ -226,13 +215,12 @@
   text-align: center;
   margin-top: 25px;
   color: #25c9b0; }
-
-.sitOnChairThird .price1 > .money {
-  font-size: 16px;
-  font-weight: bold;
-  width: 125px;
-  margin-top: 5px;
-  color: #25c9b0; }
+  .sitOnChairThird .price1 > .money {
+    font-size: 16px;
+    font-weight: bold;
+    width: 125px;
+    margin-top: 5px;
+    color: #25c9b0; }
 
 sup {
   font-size: 16px; }
@@ -260,13 +248,12 @@ sup {
   border: none;
   margin-top: 370px;
   margin-left: 105px; }
-
-.sitOnChairThird button > a {
-  color: white;
-  font-size: 18px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: normal; }
+  .sitOnChairThird button > a {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: normal; }
 
 .sitOnChairThird .added {
   width: 120px;
@@ -276,10 +263,9 @@ sup {
   border: none;
   margin-top: 370px;
   margin-left: 105px; }
-
-.sitOnChairThird .added > a {
-  color: #25c9b0;
-  font-size: 18px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: normal; }
+  .sitOnChairThird .added > a {
+    color: #25c9b0;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: normal; }

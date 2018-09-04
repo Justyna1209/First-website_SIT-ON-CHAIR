@@ -22,3 +22,29 @@ $nav-textSize:13px;
   text-align: center;
   padding: 9px;
 }
+
+%circleAndCircle1{
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position:absolute;
+  margin-top: -45px;
+  margin-left: 135px;
+}
+
+%smallCircleAndCircle1{
+  border-radius: 50%;
+  width: 30px;
+  height:30px;
+  margin-top: 13px;
+  margin-left: 13px;
+}
+
+%bigCircleAndCircle1{
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  position:absolute;
+  background-color: white;
+  margin-left: 97.5px;
+}
