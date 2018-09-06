@@ -23,6 +23,17 @@ $nav-textSize:13px;
   padding: 9px;
 }
 
+%guarantee{
+  position:absolute;
+  width:326px;
+  height: 45px;
+  margin-top: 255px;
+  color:gray;
+  font-size: 24px;
+  text-align: center;
+  padding: 9px;
+}
+
 %circleAndCircle1{
   border-radius: 50%;
   width: 60px;

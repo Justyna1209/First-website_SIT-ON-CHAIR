@@ -16,6 +16,16 @@
   text-align: center;
   padding: 9px; }
 
+.sitOnChairThird .guaranteeBackground, .sitOnChairThird .guaranteeBackground1 {
+  position: absolute;
+  width: 326px;
+  height: 45px;
+  margin-top: 255px;
+  color: gray;
+  font-size: 24px;
+  text-align: center;
+  padding: 9px; }
+
 .sitOnChairThird .circle, .sitOnChairThird .circle1 {
   border-radius: 50%;
   width: 60px;
@@ -121,6 +131,16 @@ ul:hover .triangle {
   position: absolute;
   width: 326px;
   height: 45px;
+  color: gray;
+  font-size: 24px;
+  text-align: center;
+  padding: 9px; }
+
+.sitOnChairThird .guaranteeBackground, .sitOnChairThird .guaranteeBackground1 {
+  position: absolute;
+  width: 326px;
+  height: 45px;
+  margin-top: 255px;
   color: gray;
   font-size: 24px;
   text-align: center;
@@ -245,6 +265,16 @@ ul:hover .triangle {
   text-align: center;
   padding: 9px; }
 
+.sitOnChairThird .guaranteeBackground, .sitOnChairThird .guaranteeBackground1 {
+  position: absolute;
+  width: 326px;
+  height: 45px;
+  margin-top: 255px;
+  color: gray;
+  font-size: 24px;
+  text-align: center;
+  padding: 9px; }
+
 .sitOnChairThird .circle, .sitOnChairThird .circle1 {
   border-radius: 50%;
   width: 60px;
@@ -268,6 +298,7 @@ ul:hover .triangle {
   background-color: white;
   margin-left: 97.5px; }
 
+/*SIT ON CHAIR SECOND*/
 .sitOnChairSecond {
   padding-top: 30px;
   height: 315px; }
@@ -309,6 +340,7 @@ ul:hover .triangle {
     width: 140px;
     font-size: 16px; }
 
+/*SIT ON CHAIR THIRD*/
 .sitOnChairThird {
   background-color: #e6e6e6;
   width: 100%;
@@ -360,15 +392,7 @@ ul:hover .triangle {
   margin-top: 210px; }
 
 .sitOnChairThird .guaranteeBackground {
-  position: absolute;
-  width: 326px;
-  height: 45px;
-  background-color: lightgray;
-  margin-top: 255px;
-  color: gray;
-  font-size: 24px;
-  text-align: center;
-  padding: 9px; }
+  background-color: lightgray; }
 
 .sitOnChairThird .advancePlan {
   width: 330px;
@@ -381,15 +405,7 @@ ul:hover .triangle {
   background-color: #f2f2f2; }
 
 .sitOnChairThird .guaranteeBackground1 {
-  position: absolute;
-  width: 326px;
-  height: 45px;
-  background-color: white;
-  margin-top: 255px;
-  color: gray;
-  font-size: 24px;
-  text-align: center;
-  padding: 9px; }
+  background-color: white; }
 
 .sitOnChairThird .adviceBackground {
   position: absolute;
@@ -454,7 +470,7 @@ ul:hover .triangle {
 sup {
   font-size: 16px; }
 
-.sitOnChairThird h4 {
+.sitOnChairThird h4, .sitOnChairThird .standardPlan > h4 {
   text-transform: uppercase;
   font-size: 24px;
   font-weight: normal;
@@ -464,9 +480,6 @@ sup {
   margin-bottom: 20px; }
 
 .sitOnChairThird .standardPlan > h4 {
-  text-transform: uppercase;
-  font-size: 24px;
-  text-align: center;
   color: white; }
 
 .sitOnChairThird button {
@@ -499,72 +512,12 @@ sup {
     text-decoration: none;
     font-weight: normal; }
 
-.sitOnChairThird .deliverBackground, .sitOnChairThird .servisBackground {
-  position: absolute;
-  width: 326px;
-  height: 45px;
-  color: gray;
-  font-size: 24px;
-  text-align: center;
-  padding: 9px; }
-
-.sitOnChairThird .deliverBackground1, .sitOnChairThird .servisBackground1 {
-  position: absolute;
-  width: 326px;
-  height: 45px;
-  color: gray;
-  font-size: 24px;
-  text-align: center;
-  padding: 9px; }
-
-.sitOnChairThird .circle, .sitOnChairThird .circle1 {
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  position: absolute;
-  margin-top: -45px;
-  margin-left: 135px; }
-
-.sitOnChairThird .smallCircle, .sitOnChairThird .smallCircle1 {
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  margin-top: 13px;
-  margin-left: 13px; }
-
-.sitOnChairThird .bigCircle, .sitOnChairThird .bigCircle1 {
-  border-radius: 50%;
-  width: 130px;
-  height: 130px;
-  position: absolute;
-  background-color: white;
-  margin-left: 97.5px; }
-
-* {
-  box-sizing: border-box;
-  font-family: 'Raleway', sans-serif; }
-
-body {
-  margin: 0 auto;
-  padding: 0; }
-
-.container {
-  width: 1056px;
-  margin: 0 auto; }
-
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both; }
-
-/*SIT ON CHAIR THIRD*/
 /*SIT ON CHAIR FOURTH*/
 .sitOnChairFourth h3 {
   text-transform: uppercase;
   border-bottom: 7px solid #25c9b0;
   width: 320px;
   margin-top: 60px;
-  /*margin-bottom: 50px;*/
   color: #575757;
   font-size: 20px; }
 
@@ -575,7 +528,6 @@ body {
 .inline {
   display: inline-block;
   width: 300px;
-  /*padding:14px;*/
   vertical-align: top; }
 
 .form {
@@ -583,57 +535,49 @@ body {
 
 .drop_down_list {
   border: 1px solid #8de0d2;
-  /*width: 280px;*/
-  /*height:40px;*/
   background-color: white;
   margin-top: 22px;
   padding: 8px 12px;
   position: relative; }
-
-.list_label {
-  font-size: 30px;
-  color: #e2e2e2;
-  font-family: 'ralewaylight', Arial, Tahoma, sans-serif; }
+  .drop_down_list .list_label {
+    font-size: 30px;
+    color: #e2e2e2;
+    font-family: 'ralewaylight', Arial, Tahoma, sans-serif; }
 
 .checkbox {
   position: relative;
   padding: 30px 30px 30px 0; }
-
-.checkbox input {
-  display: block;
-  opacity: 0;
-  height: 48px;
-  position: absolute;
-  width: 48px;
-  cursor: pointer; }
-
-.checkbox label {
-  display: block;
-  padding-left: 65px;
-  position: relative;
-  font-size: 28px;
-  color: #cecece;
-  line-height: 120%;
-  padding-top: 10px;
-  cursor: pointer; }
-
-.checkbox label::before, .checkbox label::after {
-  border: 1px solid #25c9b0;
-  content: "";
-  display: block;
-  left: 0;
-  height: 48px;
-  position: absolute;
-  width: 48px;
-  top: 0; }
-
-.checkbox label::after {
-  background: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20preserveAspectRatio%3D%22xMidYMid%22%20width%3D%2233.875%22%20height%3D%2233%22%20viewBox%3D%220%200%2033.875%2033%22%3E%0A%20%20%3Cpath%20d%3D%22M9.470%2C15.209%20L14.061%2C24.104%20C14.061%2C24.104%2021.522%2C6.026%2033.287%2C-0.000%20C33.000%2C4.304%2031.852%2C8.035%2033.861%2C12.626%20C28.696%2C13.774%2018.078%2C26.687%2014.635%2C33.000%20C9.756%2C26.974%204.017%2C22.382%20-0.000%2C20.948%20L9.470%2C15.209%20Z%22%20fill%3D%22%2327c7ab%22/%3E%0A%3C/svg%3E%0A") no-repeat center;
-  border: 0;
-  display: none; }
-
-.checkbox input:checked + label::after {
-  display: block; }
+  .checkbox input {
+    display: block;
+    opacity: 0;
+    height: 48px;
+    position: absolute;
+    width: 48px;
+    cursor: pointer; }
+    .checkbox input:checked + label:after {
+      display: block; }
+  .checkbox label {
+    display: block;
+    padding-left: 65px;
+    position: relative;
+    font-size: 28px;
+    color: #cecece;
+    line-height: 120%;
+    padding-top: 10px;
+    cursor: pointer; }
+    .checkbox label:before, .checkbox label:after {
+      border: 1px solid #25c9b0;
+      content: "";
+      display: block;
+      left: 0;
+      height: 48px;
+      position: absolute;
+      width: 48px;
+      top: 0; }
+    .checkbox label:after {
+      background: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20preserveAspectRatio%3D%22xMidYMid%22%20width%3D%2233.875%22%20height%3D%2233%22%20viewBox%3D%220%200%2033.875%2033%22%3E%0A%20%20%3Cpath%20d%3D%22M9.470%2C15.209%20L14.061%2C24.104%20C14.061%2C24.104%2021.522%2C6.026%2033.287%2C-0.000%20C33.000%2C4.304%2031.852%2C8.035%2033.861%2C12.626%20C28.696%2C13.774%2018.078%2C26.687%2014.635%2C33.000%20C9.756%2C26.974%204.017%2C22.382%20-0.000%2C20.948%20L9.470%2C15.209%20Z%22%20fill%3D%22%2327c7ab%22/%3E%0A%3C/svg%3E%0A") no-repeat center;
+      border: 0;
+      display: none; }
 
 .active {
   background: url("../images/form_ok.jpg");
@@ -659,10 +603,13 @@ body {
   margin-top: 50px;
   box-sizing: initial; }
 
-section.summary_part.inline {
+section .summary_part, section .inline {
   box-sizing: border-box;
   width: 322px;
   float: right; }
+
+section .inline {
+  float: left; }
 
 .application .green_button {
   background-color: #25c9b0;
@@ -698,7 +645,7 @@ section.summary_part.inline {
   height: 135px;
   line-height: 35px; }
 
-.panel_left h4, .panel_right h4 {
+.panel_left h4, .panel_left .sitOnChairThird .standardPlan > h4, .sitOnChairThird .panel_left .standardPlan > h4, .panel_right h4, .panel_right .sitOnChairThird .standardPlan > h4, .sitOnChairThird .panel_right .standardPlan > h4 {
   color: #25c9b0;
   font-size: 23px;
   margin: 0;
@@ -748,10 +695,8 @@ section.summary_part.inline {
   border: 1px solid #ccc;
   width: 288px;
   padding-left: 15px;
-  /*padding-bottom: 10px;*/
-  /*list-style: none;*/
   margin: 0;
-  left: 0px;
+  left: 0;
   z-index: 2;
   position: absolute;
   top: 54px;
@@ -805,7 +750,6 @@ div textarea {
 
 .form2Left img {
   float: right;
-  /*border: 1px solid red;*/
   margin-top: -30px;
   margin-right: 90px;
   position: relative; }
@@ -845,15 +789,14 @@ div .contact {
   margin-right: 17px;
   margin-top: 20px;
   border: none; }
+  div .contact a {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-family: 'Raleway',Arial, sans-serif; }
 
-div .contact a {
-  font-size: 30px;
-  font-weight: bold;
-  color: white;
-  text-decoration: none;
-  font-family: 'Raleway',Arial, sans-serif; }
-
-.checkboxContact label::before, .checkboxContact label::after {
+.checkboxContact label:before, .checkboxContact label:after {
   border: 1px solid #25c9b0;
   content: "";
   display: block;
@@ -863,12 +806,12 @@ div .contact a {
   width: 48px;
   top: 0; }
 
-.checkboxContact label::after {
+.checkboxContact label:after {
   background: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20preserveAspectRatio%3D%22xMidYMid%22%20width%3D%2233.875%22%20height%3D%2233%22%20viewBox%3D%220%200%2033.875%2033%22%3E%0A%20%20%3Cpath%20d%3D%22M9.470%2C15.209%20L14.061%2C24.104%20C14.061%2C24.104%2021.522%2C6.026%2033.287%2C-0.000%20C33.000%2C4.304%2031.852%2C8.035%2033.861%2C12.626%20C28.696%2C13.774%2018.078%2C26.687%2014.635%2C33.000%20C9.756%2C26.974%204.017%2C22.382%20-0.000%2C20.948%20L9.470%2C15.209%20Z%22%20fill%3D%22%2327c7ab%22/%3E%0A%3C/svg%3E%0A") no-repeat center;
   border: 0;
   display: none; }
 
-.checkboxContact input:checked + label::after {
+.checkboxContact input:checked + label:after {
   display: block; }
 
 /*FOOTER*/
@@ -887,12 +830,79 @@ footer {
 
 .text2 {
   padding-top: 16px; }
-
-.text2 span {
-  font-weight: bold;
-  color: #a2a2a2; }
+  .text2 span {
+    font-weight: bold;
+    color: #a2a2a2; }
 
 .socialMedia {
   cursor: pointer;
   margin-right: 108px;
   padding-top: 6px; }
+
+.sitOnChairThird .deliverBackground, .sitOnChairThird .servisBackground {
+  position: absolute;
+  width: 326px;
+  height: 45px;
+  color: gray;
+  font-size: 24px;
+  text-align: center;
+  padding: 9px; }
+
+.sitOnChairThird .deliverBackground1, .sitOnChairThird .servisBackground1 {
+  position: absolute;
+  width: 326px;
+  height: 45px;
+  color: gray;
+  font-size: 24px;
+  text-align: center;
+  padding: 9px; }
+
+.sitOnChairThird .guaranteeBackground, .sitOnChairThird .guaranteeBackground1 {
+  position: absolute;
+  width: 326px;
+  height: 45px;
+  margin-top: 255px;
+  color: gray;
+  font-size: 24px;
+  text-align: center;
+  padding: 9px; }
+
+.sitOnChairThird .circle, .sitOnChairThird .circle1 {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  margin-top: -45px;
+  margin-left: 135px; }
+
+.sitOnChairThird .smallCircle, .sitOnChairThird .smallCircle1 {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-top: 13px;
+  margin-left: 13px; }
+
+.sitOnChairThird .bigCircle, .sitOnChairThird .bigCircle1 {
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  background-color: white;
+  margin-left: 97.5px; }
+
+* {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif; }
+
+body {
+  margin: 0 auto;
+  padding: 0; }
+
+.container {
+  width: 1056px;
+  margin: 0 auto; }
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both; }
